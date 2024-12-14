@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">Quiz App</string>
+    <string name="app_name">Quizie</string>
     <string name="submit">Submit</string>
     <string name="result">Result</string>
-    <string name="hey_congratulations">Hey Congratulations</string>
+    <string name="hey_congratulations">Hey Congratulations !!</string>
     <string name="back_to_Start">Back to Start</string>
+    <string name="picture_of_a_trophy">Picture of a Trophy</string>
 </resources>

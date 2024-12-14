@@ -42,13 +42,15 @@ class MainActivity : AppCompatActivity()
         }
     }
 
-     fun vibration(){
+     fun vibration()
+     {
         val vibrator = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
         val vibrationEffect = VibrationEffect.createPredefined(VibrationEffect.EFFECT_CLICK)
         vibrator.vibrate(vibrationEffect)
     }
 
-    private fun errvibration(){
+    private fun errvibration()
+    {
         val vibrator = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
         val vibrationEffect = VibrationEffect.createOneShot(20,60)
         vibrator.vibrate(vibrationEffect)

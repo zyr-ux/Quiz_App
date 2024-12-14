@@ -124,7 +124,7 @@ object All_Questions
             "Iceland",
             "Switzerland",
             "Italy",
-            2,
+            3,
             R.drawable.switzerland
         )
         questionList.add(que10)

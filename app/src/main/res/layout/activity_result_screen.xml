@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ResultScreen"
-    android:background="@drawable/gradient_list">
+    android:background="@drawable/gradient_list"
+    android:contentDescription="@string/picture_of_a_trophy">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -52,7 +53,7 @@
         android:id="@+id/textView_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Siddhartha"
+        tools:text="Siddhartha"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -67,7 +68,7 @@
         android:id="@+id/textView_score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your Score is 5 out of 10"
+        tools:text="Your Score is 5 out of 10"
         android:textColor="@color/white"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"

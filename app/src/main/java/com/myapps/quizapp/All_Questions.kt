@@ -122,10 +122,10 @@ object All_Questions
             "Identify the flag",
             "Romania",
             "Iceland",
-            "Switzerland",
+            "Norway",
             "Italy",
             3,
-            R.drawable.switzerland
+            R.drawable.norway
         )
         questionList.add(que10)
 

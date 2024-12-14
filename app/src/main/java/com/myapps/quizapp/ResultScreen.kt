@@ -42,7 +42,8 @@ class ResultScreen : AppCompatActivity()
         }
     }
 
-    private fun vibration(){
+    private fun vibration()
+    {
         val vibrator = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
         val vibrationEffect = VibrationEffect.createPredefined(VibrationEffect.EFFECT_CLICK)
         vibrator.vibrate(vibrationEffect)

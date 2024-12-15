@@ -5,7 +5,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.VibrationEffect
 import android.os.Vibrator
-import android.provider.SyncStateContract.Constants
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -26,6 +25,7 @@ class MainActivity : AppCompatActivity()
             v.setPadding(systemBars.left, 0, systemBars.right, systemBars.bottom)
             insets
         }
+
         val start_btn : Button = findViewById(R.id.start_btn)
         val nameinput : EditText = findViewById(R.id.etname)
         start_btn.setOnClickListener{
